@@ -4,6 +4,6 @@ provider:
 
 functions:
   mememachine:
-    lang: Dockerfile
+    lang: node-gci
     handler: ./mememachine
-    image: developius/faas-mememachine:0.2
+    image: dfquaresma/faas-mememachine:0.2
